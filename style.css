@@ -1,0 +1,67 @@
+/* CSS styles for the game */
+body {
+  background-image: url('/image/background.jpg'); /* Adjust the path based on your project structure */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100vh; /* Set the body height to 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#welcome {
+  text-align: center;
+  padding: 500px;
+}
+#welcome h1 {
+  margin: 0;
+  color: white;
+}
+
+/* ... other styles ... */
+
+#text {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: lightgray;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#controls {
+  position: relative; /* Reset position to relative */
+  width: 96%;
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+#stats {
+  border: 1px black solid;
+  color: black;
+  padding: 5px;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px black solid;
+  color: white;
+  padding: 5px;
+  background-color: red;
+}
+
+.stat {
+  padding-right: 10px;
+}
